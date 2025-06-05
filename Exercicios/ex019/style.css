@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+/* em HTML é id = em CSS é #   (só pode um id por página)
+
+   em HTML é class = em CSS é . (pode usar mais de uma classe )
+*/
+
+body {
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+h1 {
+    color: green;
+}
+
+h1#principal {
+   text-align: center;
+   color: white;
+   background-color: rgb(38, 143, 38);
+}
+
+h2 {
+    color: rgb(51, 77, 49);
+}
+
+.basico {
+    color: rgb(64, 139, 64);
+} 
+
+.itermediario {
+    color: rgb(123, 139, 64);
+}
+
+.avancado {
+    color: rgb(139, 64, 64);
+
+}
+
+.destaque {
+    background-color: rgb(117, 126, 75);
+}
+
+/* como visto na pagina em html pode usar somente um id 
+   pode usar varias vezes uma class 
+   assim como também pode usar um id e uma class no mesmo lugar
+   e mais de uma classe em uma class
+   
+   + é visto também que um id sobrepões uma class
+   e o h1#principal herda as informações do h1 assim como as classes também herdam 
+   a class é ligada antes e o id depois visto que o id sobrepõe a class 
+
+   Não esqueça ! CSS é case sensitive !!!! precisa estar escrito nele da mesma forma 
+   que esta escrita no html e de preferencia sem acentos !!!!
+   */

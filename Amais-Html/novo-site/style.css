@@ -1,0 +1,72 @@
+@charset "UTF-8" ;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+ background-color: pink;
+}
+
+header {
+  background-color: rgba(250, 142, 160, 0.74);
+  min-height: 40px;  /*altura da caixa do header*/
+  text-align: center;
+  padding-top: 20px;  /*padding acima apenas*/
+  margin-bottom: 100px;
+}
+
+header h1 {
+  margin-bottom: 15px;
+  font-size: 2em;
+}
+
+header h2 {
+   font-size: 1.2em;
+   padding-bottom: 15px;
+}
+
+.intro {
+   padding: 50px;
+   text-align: justify;
+}
+
+main {
+    min-width: 300;
+    max-width: 1000;
+    height: 335px;
+    width: 400px;
+    margin: auto ;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+main h2 {
+   margin: 0px 0px 20px 0px;
+}
+
+main p {
+     line-height: 20px;
+}
+
+.quiz2 {
+     text-decoration: underline;
+     color: rgb(139, 0, 93);
+     text-align: center;
+     padding-top: 25px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: rgba(250, 142, 160, 0.74);
+    padding-top: 2px;
+    margin: 0px;
+}
+
+footer > p {
+    line-height: 12px;
+    font-size: 0.9em;
+    padding: 6px;
+}

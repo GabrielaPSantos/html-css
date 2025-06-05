@@ -1,0 +1,31 @@
+@charset "UTF-8" ;
+
+.pagina2{
+    background-color: rgba(228, 131, 131, 0.575);
+}
+
+.pagina1{
+
+background-color: rgba(127, 255, 212, 0.651);
+}
+
+.pagina3{
+    background-color: rgba(226, 226, 47, 0.822);
+}
+
+.pag4 {
+      background-color: pink;
+}
+
+.pagvideo {
+    background-color: pink;
+}
+
+.pag5 {
+    background-color: rgba(227, 235, 117, 0.856);
+}
+ 
+.pag6 {
+    background-color: rgba(101, 163, 173, 0.705);
+    color: rgb(3, 97, 173);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo</title>
+    <style>
+         h1 {  /* box-level */
+          
+            background-color: grey;
+            height: 300px;
+            width: 300px;
+
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkslategrey;
+    /*
+            border: 10px solid darkslategrey ;   - é uma shorthand
+    */
+
+            padding-top: 10px ;
+            padding-right: 10px  ;
+            padding-bottom: 10px  ;
+            padding-left: 10px  ;
+/* 
+            padding: 10px ;   - é uma shorthand - caso todos forem iguais coloca uma única vez o valor
+            padding: 10px 20px ;  - quer dizer que é um valor 10x20 - top and bottom 10px - right and left 20px
+*/
+            margin-top: 20px;
+            margin-right: 20px ;
+            margin-bottom: 40px ;
+            margin-left: 20px ;    
+
+/*          margin: 20px auto 40px auto   - shorthand e centraliza com auto (automatizar)
+*/
+
+            outline-width: 5px ;   /*outline esta dentro da margin*/
+            outline-style: dashed ;
+            outline-color: salmon;
+/*
+            outline: 5px dashed salmon  
+*/
+         }
+
+         a {  /* inline-level */
+             border-width: 15px;
+             border-style: solid ;  /* solid dashed dotted double groove*/
+             border-color: red;
+
+             padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level. Mas os <a href="#">links são exemplos de inline-level</a>. <br> Vamos ver a seguir</p>
+</body>
+</html>
+
+
+<!--abra no LiveSeerver e  Clique nos três pontos na pagina e clique mais ferramentas e ferramentas de desenvolvedor 
+ você pode clicar e rodar o mouse para aumentar e diminuir os valores, isso não altera no código no vscode--> 
+
+
+ <!-- 
+     Se quiser pode transformar:
+  box-level em inline-level  -  display='inline'
+  inline-level em box-level  -  display='block' 
+  -->
+
+
+  <!--
+     padding and margin são espaçamentos 
+     border e outline são visiveis 
+      -->

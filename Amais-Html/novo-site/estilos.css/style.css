@@ -1,0 +1,90 @@
+@charset "UTF-8" ;
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 192, 203, 0.747), transparent);
+    padding-top: 60px;
+}
+
+header{
+   min-height: 40px;  /*altura da caixa do header*/
+   text-align: left;
+   padding-top: 10px;  /*padding acima apenas*/
+   padding-left: 15px;
+   margin-bottom: 20px;
+   font-size: 0.7em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(245, 164, 177); 
+    z-index: 1000;
+}
+
+header h1 {
+    margin-bottom: 0px;
+    font-size: 2em;
+}
+
+main {
+    margin: auto;
+    min-width: 300px;
+    max-width: 900px;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+main h2 {
+   margin: 20px 20px 20px 0px;
+}
+
+main form {
+    margin: 20px 0px ;
+}
+
+ol {
+    list-style-position: inside;
+    margin-top: 12px;
+    line-height: 22px;
+}
+
+.espaço {
+    margin: 10px 0px;
+}
+
+.espaço2 {
+    margin-bottom: 10px;
+}
+
+.espaço3 {
+    margin-top: 10px ;
+}
+
+.quiz2 {
+     text-decoration: underline;
+     color: rgb(139, 0, 93);
+     text-align: center;
+     padding-top: 25px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(250, 142, 160, 0.74);
+    padding-top: 2px;
+}
+
+footer > p {
+    line-height: 12px;
+    font-size: 0.9em;
+    padding: 6px;
+}
+
+

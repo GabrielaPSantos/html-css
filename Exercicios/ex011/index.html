@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em diferentes aparelhos ou simplesmente abra-os em seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+
+
+       <h1>Reproduzindo Aúdios</h1>
+       <p>Vamos aprender a reproduzir aúdio em HTML5.</p>
+       <audio preload="metadata"  controls loop>  <!-- se adicionar o parametro autoplay ele começa a tocar assim que a pagina carrega-->
+             <source src="midia/exercicios_modulo-01_ex011_midia_happy-mistake.mp3" type="audio/mpeg">
+             <source src="midia/guanacast-33.ogg" type="audio/ogg">
+             <source src="midia/guanacast-33.wav" type="audio/wav">
+       <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/exercicios_modulo-01_ex011_midia_happy-mistake.mp3">Clique aqui para baixar o arquivo MP3</a></p>  <!-- Este paragrafo aparece caso nenhum consiga ser reproduzido no navedor do visitante-->
+       </audio>
+
+</body>
+</html>
+
+<!--  < source media:type  para imagem e source src=  para audio
+      max-width: é para se o tamanho for menor que 1050px aparece a foto m e se menor que 750px a foto p 
+      A tag <picture> permite que o navegador escolha a imagem mais adequada, com base nas características do dispositivo ou navegador. Se uma das <source> for mais apropriada, ela será usada em vez da imagem padrão no elemento <img>. -->
+
+

@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.pagina-cinza{
+    background-color: grey;
+
+}
+
+.pagina-verde{
+    background-color: rgb(107, 230, 134);
+    color: rgb(107, 192, 38);
+}
+
+.pagina-amarela{
+    background-color: #f0ae5d;
+    color: rgb(255, 150, 12);
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        /*Como pode ver os pseudo elementos funcionam para elementos e classes */
+
+       a {
+            color: darkred;
+            text-decoration: none;
+        }
+
+        a:visited {           /*Pseudo-classe muda o estado de um elemento.*/
+             color: red;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+       
+        a:active {
+            color: yellow;
+        } 
+        
+
+        .importante {
+            background-color: brown;
+        }
+
+        .importante::after {   /* se colocar a :: after todas as âncoras ficam com o simbolo */
+            content: '✔';
+            text-decoration: none;
+            font-weight: normal;
+            color: grey;
+        }
+
+        .importante::before {  /*Pseudo-elemento Estiliza partes específicas de um elemento */
+            content: '✔';
+            color: grey;
+        }  
+
+        /* 
+           E se eu quiser que outro link tenha destaque backgorund-color e o pseudo-elemento '✔' tambem ? 
+           Basta adicionar a mesma classe nele.
+        */
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=vMlrcOVr7po&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=22">Canal Youtube</a></li>
+        <li><a href="https://blog.soaresdev.com/tags-html5/" class="importante">Tags HTML</a></li>
+        <li><a href="https://github.com/gustavoguanabara/html-css/blob/master/exercicios/modulo-02/ex020/index.html">Repositório Github</a></li>
+    </ul>
+</body>
+</html>
+
+<!-- 
+
+     #   = id
+     .   = class
+     :   = pseudo-class
+    ::   = pseudo-elemento
+     >   = children
+     
+-->
+
+<!--   Pseudo-classe muda o estado de um elemento.
+       Pseudo-elemento Estiliza partes específicas de um elemento 
+-->

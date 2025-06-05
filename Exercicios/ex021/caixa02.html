@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: grey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: inset 2px 2px 5px 2px rgba(0, 0, 0, 0.445); /* caixa-sombra: dentro fora Horizontal - vertical | espalhamento sombra(cor) */
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            margin-right: 20px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;   /* borda */
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384) ;
+        }
+        
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            margin: 0px;
+        }
+
+        div#bola {   /* transformar em um circulo */
+            height: 100px ;
+            width: 100px;
+            margin: 10px ;
+            background-color: white;
+            border-radius: 50px ;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+          <h1>Meu site</h1>
+          <nav>    <!-- navegação / menu-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+       <section id="Notícias">
+
+       </section>
+       <section id="Esportes">
+           <article>
+             <h2>Noticias do Brasil</h2>
+             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam magni soluta quis, praesentium esse laudantium sed minus nulla odio recusandae temporibus, laborum autem distinctio porro. Repellendus adipisci rem quos sed!</p>
+            <aside>
+                <p>Artigo escrito por Gustava Guanabara</p>
+            </aside>
+           </article>
+           <article>
+
+           </article>
+       </section>
+    </main>
+    <footer>
+       <p>Desenvolvido pelo CursoEmVideo</p>
+    </footer>
+    <div id="bola" ></div>
+</body>
+</html>
+
+
+<!-- 
+
+     pode colocar dentro do article > sections
+     e dentro da section > articles
+     
+     não imprta a ordem !!!!
+     
+-->
