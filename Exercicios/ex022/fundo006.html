@@ -6,12 +6,22 @@
     <title></title>
     <style>
         body{
-           height: 100vh;
+           /*
+            height: 100vh;
            background-color: black;
            background-image: url('./imagens/wallpaper002.jpg');
            background-position: center center;
            background-repeat: no-repeat;
-           background-size: contain;  /*contain tenta adaptar a imagem ao tamanho da tela sem cortar /cover recorta a imagem de acordo com a viewport e aparece cheio na tela / px % auto */
+           background-size: cover;  > contain tenta adaptar a imagem ao tamanho da tela sem cortar /cover recorta a imagem de acordo com a viewport e aparece cheio na tela / px % auto 
+           background-attachment: fixed; > scroll 
+
+           Shorthand - background
+                color > image > position > repeat > [size] > attachment
+           */
+
+           background: black url('./imagens/wallpaper002.jpg') center center no-repeat fixed;
+          
+           
         }
 
         main {
