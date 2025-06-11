@@ -32,7 +32,7 @@ header > h1 {
     padding-top: 50px;
     font-variant: small-caps; /*ou text-transform: uppercase; só que este deixa 'gritante'*/
     font-family: var(--fonte2);
-    font-size: 4em;
+    font-size: 10vw;   /* antes 4em; depois 10% da largura da tela view width  -> NÃO É A MELHOR MANEIRA MAS É UM RECURSO para quando tiver mudanças de tamnho de tela*/
     
 }
 
@@ -50,13 +50,17 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-section {                     /*para dar efeito parallex da os espaços nas section*/
+section {                     /*para dar efeito parallex dps, da os espaços nas section*/
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 2em;
+    font-size: 3.5vw /*  antes 2em;*/
+}
+
+section > p {
+     padding-bottom: 2em;
 }
 
 section.normal {
@@ -67,11 +71,25 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.315);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;  /*efeito parallax*/
 }
 
 section.imagem > p {
+    display: inline-block; /* transforma na caixa que se adapta ao tamanho do conteudo*/
     background-color: rgba(0, 0, 0, 0.315);
-    width: 400px;
+    padding: 5px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.514);
+}
+
+section#img01 {
+    background-image: url('../imagens/background001.jpg');
+    background-position: center right ;
+}
+
+section#img02 {
+    background-image:url('../imagens/background002.jpg');
 }
 
 footer  {
