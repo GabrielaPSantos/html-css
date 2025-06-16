@@ -56,7 +56,7 @@ section {                     /*para dar efeito parallex dps, da os espaços nas
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 3.5vw /*  antes 2em;*/
+    font-size: 3.5vw /* vai ficar reponsiva que nem o header antes 2em;*/
 }
 
 section > p {
