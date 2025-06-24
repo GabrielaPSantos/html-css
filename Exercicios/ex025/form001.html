@@ -12,7 +12,7 @@
 </head>
 <body>
     <h1>Meu primeiro formulario</h1>
-    <form action="cadastro.php" autocomplete="off">   <!-- desliga as sugestões de respostas conforme dadas anteriormente-->
+    <form action="cadastro.php" method="post" autocomplete="off">   <!-- desliga as sugestões de respostas conforme dadas anteriormente-->
         <p><label for="inome">Nome:</label>
           <input type="text" name="nome" id="inome"></p>
         <p><label for="isobrenome">Sobrenome:</label>
@@ -31,5 +31,14 @@
 
 
        para name serve mais para html e php e id é mais util para javascript e label
+
+       precisa usar label para relacionar com o input e não dificultar para os navegadores de busca
+-->
+
+
+<!--
+     method: get  > aparece na barra de pesquisa, usar quando os dados não forem sensiveis (até 3 mil bytes)
+     
+     method: post > capta os dados mas não fica visivel para o usuário, usar quando os dados forem sensíveis (cpf, numero, nome, senhav e envio de fotos e arquivos)
 -->
 
