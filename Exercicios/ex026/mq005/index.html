@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1> Meu Site</h1>
+           <div class="fundoBurguer" onclick="clickMenu()"><img src="icone/menu.png" alt="icnone de menu"></div>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testanto Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore aliquid maiores esse suscipit. Delectus, consequatur! Repellendus provident, suscipit error officiis ipsam sed in ut eaque. Suscipit modi corrupti impedit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit molestias perferendis tempora enim in aliquid sint! Voluptatibus, veritatis nemo. Eveniet fuga cumque esse ipsum inventore cupiditate nemo vero quam expedita?</p>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita porro officiis earum incidunt explicabo beatae odit, quasi aut assumenda dolore fuga eligendi dolorem magnam reprehenderit quaerat magni debitis architecto ex!</p>
+            
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus cum aut voluptatibus facilis aliquid voluptatum enim totam libero repellat rem provident, quam tempore natus error ipsa sunt esse beatae! Ducimus!</p>
+        </article>
+    </main>
+
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+               itens.style.display = 'none'
+           } else {
+                itens.style.display = 'block'
+           }
+        }
+    </script>
+</body>
+</html>
