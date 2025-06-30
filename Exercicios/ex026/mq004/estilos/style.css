@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-/*Versão moble first*/
+/*Versão Mobile First*/
 
 *{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.3em;
+    font-size: 1em;
     box-sizing: border-box;
 }
 
-body, html {
+body, html {   
     height: 100vh;
 }
 
 body {
-    background: black url(../back-phone.jpg) no-repeat;
+    background: black url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
