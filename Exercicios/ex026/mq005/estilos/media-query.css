@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+
+
+@media screen and (min-width: 768px) { 
+    div.fundoBurguer {
+        display: none;
+    }
+
+    menu {
+        display: block;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+    }
+
+    main {
+        width: 768px;   /*quando a tela aumentar o main permanece nesse tamanho*/
+    }
+
+}
